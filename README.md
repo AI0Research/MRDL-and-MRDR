@@ -16,6 +16,7 @@ Our dataset naturally forms a graph network with multiple types of nodes, and th
 ![](https://raw.githubusercontent.com/AI0Research/MRDL-and-MRDR/main/explain/dataset_statis.png)
 <br />
 The large red nodes at the center of each graph represent the initially selected nodes for the subgraph, comment nodes are orange, user nodes are blue, and dialogue nodes are grey. 
+<br />
 (a) shows the comment subgraph, which shows that a comment is published by a user, and has multiple reply comments, belonging to a specific dialogue. <br />
 
 (b) shows the user subgraph, where a user makes comments, participates in multiple dialogues, and interacts with other users. The related user count may be greater than the comment count , because when the user makes a high-value comment, multiple users may reply to it.
